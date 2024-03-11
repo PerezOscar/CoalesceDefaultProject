@@ -1,0 +1,33 @@
+steps:
+  MUSIC-b93a421e-6dde-47ac-9efd-7859026386f3:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: XML
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0c34f26e-41fe-430e-98a8-fe24e011907f
+              stepCounter: b93a421e-6dde-47ac-9efd-7859026386f3
+            config: {}
+            dataType: VARIANT
+            defaultValue: ""
+            description: ""
+            name: SRC
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('XML', 'MUSIC') }}
+      name: MUSIC
+      schema: ""
+      sqlType: Source
+      table: MUSIC
+      type: sourceInput
+    stepCounter: b93a421e-6dde-47ac-9efd-7859026386f3
