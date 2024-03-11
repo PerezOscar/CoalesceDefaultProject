@@ -10,6 +10,14 @@ locations:
       "3":
         database: FIVETRAN
         schema: INFORMATION_SCHEMA
+  JSON:
+    mappingDefinitions:
+      "2":
+        database: ""
+        schema: ""
+      "3":
+        database: ""
+        schema: ""
   SAMPLE:
     mappingDefinitions:
       "2":
@@ -26,6 +34,14 @@ locations:
       "3":
         database: PC_COALESCE_DB
         schema: PUBLIC
+  XML:
+    mappingDefinitions:
+      "2":
+        database: ""
+        schema: ""
+      "3":
+        database: ""
+        schema: ""
 macros: {}
 packages: {}
 projects: {}
